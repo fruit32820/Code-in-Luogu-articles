@@ -1,7 +1,7 @@
 #ifndef MYHEAP_HPP
 #define MYHEAP_HPP
 
-#if __cplusplus >= 20110311L
+#if __cplusplus >= 201103L
 
 #include<algorithm>
 #include<stdexcept>
@@ -93,7 +93,7 @@ public:
     void clear() { len = 0; }
 };
 
-#endif // __cplusplus >= 20110311L
+#endif // __cplusplus >= 201103L
 
 #endif // MYHEAP_HPP
 
