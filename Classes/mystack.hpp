@@ -1,7 +1,7 @@
 #ifndef MYSTACK_HPP
 #define MYSTACK_HPP
 
-#if __cplusplus >= 20110311L
+#if __cplusplus >= 201103L
 
 template<typename _Tp=int>
 class mystack{
@@ -43,6 +43,6 @@ public:
     mystack& operator=(const mystack&) = delete;
 };
 
-#endif // _cplusplus >= 20110311L
+#endif // _cplusplus >= 201103L
 
 #endif // MYSTACK_H
